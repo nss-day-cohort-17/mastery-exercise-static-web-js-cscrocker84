@@ -7,7 +7,8 @@ function checkInput () {
       alert("Both fields must have a value");
   } else if (document.getElementById("char").value === "") {
       alert("Both fields must have a value");
-    } else {
+    }
+    else {
         // It accepts a single object as an argument. The object should have two key/value pairs.
         var treeDetails = {
         // A key that specifies the height of the pine tree.
@@ -16,3 +17,12 @@ function checkInput () {
             char:"";
         }
         // The value for the height of the tree should be from user input in a <input type="text"> field in the DOM.
+        // 1. The value for the height of the tree should be from user input in a `<input type="text">` field in the DOM.
+        treeObj.height = document.getElementById("height").value;
+        // treeObj.height = parseInt(treeObj.height);
+        // 1. The character to use should be from user input in a `<input type="text">` field in the DOM.
+        treeObj.character = document.getElementById("character").value;
+
+        tree(treeObj);
+    }
+}
