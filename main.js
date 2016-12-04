@@ -12,9 +12,9 @@ function checkInput () {
         // It accepts a single object as an argument. The object should have two key/value pairs.
         var treeDets = {
         // A key that specifies the height of the pine tree.
-            height:"";
+            height:"",
         // A key that specifies which character to use to build the pine tree.
-            char:"";
+            char:""
         }
         // 1. The value for the height of the tree should be from user input in a `<input type="text">` field in the DOM.
         treeDets.height = document.getElementById("height").value;
