@@ -1,0 +1,17 @@
+h1 {
+color: black;
+background: green;
+font-family: fantasy;
+border: 10px;
+text-align: center;
+}
+
+body {
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/1a/9d/8f/1a9d8fdcca51f53e0bc9295d0a3f8ae7.gif");
+}
+
+iframe.giphy-embed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
